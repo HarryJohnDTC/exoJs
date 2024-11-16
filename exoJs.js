@@ -51,6 +51,6 @@ for (let i = 0; i < noms.length; i++) {
 console.log(
     `Chaine de caractère supérieur à 5: ${chaineSup5}
 Chaine de caractère avec "a": ${chaineAveCa}
-Le tableau noms avec les noms qui contenait "o" et remplacé par "i" :
+Le tableau noms avec les noms qui contenaient "o" et remplacés par "i" :
 ${chaineRemplaceOi}`
 );
