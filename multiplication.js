@@ -1,3 +1,23 @@
+    
+    for (let i = 1; i <= 12; i++) {
+        multiplication(i);    
+    }
+    for (let i = 1; i <= 12; i++) {
+        division(i);    
+    }
+    for (let i = 1; i <= 12; i++) {
+        addition(i);    
+    }
+    for (let i = 1; i <= 12; i++) {
+        soustraction(i);    
+    }
+    for (let i = 1; i <= 12; i++) {
+        racineCarre(i);    
+    }
+    
+    
+    
+    
     function multiplication(a) {
         console.log(`Table de multiplication de  ${a}`);
         for (let i = 1; i <= 10; i++) {
@@ -36,19 +56,4 @@
 \\/${a} = ${Math.sqrt(a)}`);   
     }
 
-    for (let i = 1; i <= 12; i++) {
-        multiplication(i);    
-    }
-    for (let i = 1; i <= 12; i++) {
-        division(i);    
-    }
-    for (let i = 1; i <= 12; i++) {
-        addition(i);    
-    }
-    for (let i = 1; i <= 12; i++) {
-        soustraction(i);    
-    }
-    for (let i = 1; i <= 12; i++) {
-        racineCarre(i);    
-    }
 
