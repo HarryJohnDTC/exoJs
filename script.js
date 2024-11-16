@@ -49,12 +49,52 @@ console.log(2 != 3);*/
 
 //+,-,/,*
 
+var persons = [{
+        nom: "rakoto",
+        prenom: "julien",
+        contact: {
+            telephone: "123456",
+            email: "rakoto@gmail.com"
+        }
+},
+{
+    nom: "razafy",
+    prenom: "alphonse",
+    contact: {
+        telephone: "121212",
+        email: "zafy@gmail.com"
+    },
+    adresse:[
+        {
+            ville: "Tanà",
+            bp: 101
+        },
+        {
+            ville: "Toliary",
+            bp: 501
+        }
+    ]
+}]
+/*console.log(persons.nom, persons.prenom);
+persons.age = 30;
+console.log(persons.contact.email);*/
+
+// for (let i = 0; i < persons.length; i++) {
+//     console.log(persons[i].prenom);    
+// }
+
+// for (let key in persons) {
+// console.log(persons[key].prenom);        
+// }
+
+// for (let i = 0; i < persons.length; i++) {
+//     let personAdresse = persons[i].adresse;
+//     if (!personAdresse) {
+//         continue;
+//     }
+//     for (let j = 0; j < personAdresse.length; j++) {
+//         console.log(personAdresse[j].bp, personAdresse[j].ville);
+//     }
+// }
 
 
-
-
-
-
-
-
-//

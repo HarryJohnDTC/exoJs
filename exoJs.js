@@ -19,7 +19,7 @@ for (let i = 0; i < nombres.length; i++) {
 }
 
 console.log(
-`Somme des nombres dans le tableau nombres: ${somme}
+    `Somme des nombres dans le tableau nombres: ${somme}
 Nombre pair dans le tableau nombres: ${nombresPair}
 Nombre divisible par 5: ${nombresDivisiblePar5}`
 );
